@@ -17,7 +17,7 @@ POST /users to add a new user
 
 GET /measurements to returns all the measurements
 
-POST /measurements to add new measurement
+POST /measurements to add a new measurement
 
 ## ERD Diagram
 
