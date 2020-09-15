@@ -1,24 +1,54 @@
-# README
+# Portfolio Tracker API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Rails Backend API for [rails-react-tracker](https://github.com/Kyle-Law/react-rails-tracker)
 
-Things you may want to cover:
+## Models
 
-* Ruby version
+This API is made of two models
 
-* System dependencies
+- user model
+- measurement model
 
-* Configuration
+## Endpoints
 
-* Database creation
+GET /users to return all users
 
-* Database initialization
+POST /users to add a new user
 
-* How to run the test suite
+GET /measurements to returns all the measurements
 
-* Services (job queues, cache servers, search engines, etc.)
+POST /measurements to add new measurement
 
-* Deployment instructions
+## Testing
 
-* ...
+1. Clone the project and cd to private-events
+2. Run `yarn install --check-files` to check and update yarn packages
+3. Run 'rspec'
+4. 3 examples, 0 failures should be shown.
+
+## Authors
+
+👤 **Kyle Law**
+
+- Github: [@Kyle-Law](https://github.com/Kyle-Law)
+- Twitter: [@Kyle-Law](https://twitter.com/ZhunKhing)
+- Linkedin: [Kyle law](https://www.linkedin.com/in/kyle-lawzhunkhing/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Kyle-Law/react-to-pokemon/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- [Gregoire Vella](https://www.behance.net/gregoirevella) for [design idea](https://www.behance.net/gallery/13271423/Bodytrackit-An-iOs-app-Branding-UX-and-UI)
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
