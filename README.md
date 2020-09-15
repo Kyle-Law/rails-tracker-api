@@ -19,6 +19,10 @@ GET /measurements to returns all the measurements
 
 POST /measurements to add new measurement
 
+## ERD Diagram
+
+![image](https://user-images.githubusercontent.com/55923773/93226288-bbc2ed00-f7a5-11ea-9d0b-83064fc83207.png)
+
 ## Testing
 
 1. Clone the project and cd to private-events
